@@ -20,7 +20,12 @@ const Home = (props) => {
         <div className="home-hero">
           <span className="home-text">Easy Equity</span>
           <h1 className="home-text01">
-            Easily unlock your housing equity again
+            Easily unlock your housing equity
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
           </h1>
           <Link href="/pre-qualification-confirm-address">
             <a className="home-link">
