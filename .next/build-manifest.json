@@ -15,11 +15,6 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -29,51 +24,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
-    ],
-    "/application-application-submitted": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/application-application-submitted.js"
-    ],
-    "/application-confirm-documents": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/application-confirm-documents.js"
-    ],
-    "/application-confirm-identity": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/application-confirm-identity.js"
-    ],
-    "/application-confirmation-of-application": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/application-confirmation-of-application.js"
-    ],
-    "/application-property-confirmation": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/application-property-confirmation.js"
-    ],
-    "/application-property-interests": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/application-property-interests.js"
-    ],
-    "/offer-bank-details": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/offer-bank-details.js"
-    ],
-    "/offer-offer-documents": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/offer-offer-documents.js"
-    ],
-    "/offer-offer-pending": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/offer-offer-pending.js"
     ],
     "/pre-qualification-confirm-address": [
       "static/chunks/webpack.js",
