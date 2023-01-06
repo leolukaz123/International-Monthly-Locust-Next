@@ -1,0 +1,16 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/application-confirm-documents": "pages/application-confirm-documents.js",
+  "/application-confirmation-of-application": "pages/application-confirmation-of-application.js",
+  "/application-application-submitted": "pages/application-application-submitted.js",
+  "/application-confirm-identity": "pages/application-confirm-identity.js",
+  "/application-property-interests": "pages/application-property-interests.js",
+  "/offer-bank-details": "pages/offer-bank-details.js",
+  "/offer-offer-documents": "pages/offer-offer-documents.js",
+  "/": "pages/index.js",
+  "/application-property-confirmation": "pages/application-property-confirmation.js",
+  "/offer-offer-pending": "pages/offer-offer-pending.js",
+  "/pre-qualification-confirm-address": "pages/pre-qualification-confirm-address.js"
+}
