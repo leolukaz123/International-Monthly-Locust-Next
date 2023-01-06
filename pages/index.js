@@ -19,7 +19,9 @@ const Home = (props) => {
         <Navbar></Navbar>
         <div className="home-hero">
           <span className="home-text">Easy Equity</span>
-          <h1 className="home-text01">Easily unlock your housing equity</h1>
+          <h1 className="home-text01">
+            Easily unlock your housing equity again
+          </h1>
           <Link href="/pre-qualification-confirm-address">
             <a className="home-link">
               <BasicButton
