@@ -6,7 +6,11 @@ const HelpModal = (props) => {
   return (
     <>
       <div className={`help-modal-help-modal ${props.rootClassName} `}>
-        <div className="help-modal-container"></div>
+        <div className="help-modal-container">
+          <svg viewBox="0 0 1024 1024" className="help-modal-icon">
+            <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+          </svg>
+        </div>
       </div>
       <style jsx>
         {`
@@ -27,13 +31,23 @@ const HelpModal = (props) => {
             width: 800px;
             height: 400px;
             display: flex;
+            position: relative;
             align-self: center;
             align-items: flex-start;
             margin-left: var(--dl-space-space-sixunits);
             margin-right: var(--dl-space-space-sixunits);
             border-radius: 10px;
             justify-content: center;
-            background-color: #d9d9d9;
+            background-color: var(--dl-color-default-style);
+          }
+          .help-modal-icon {
+            top: 0px;
+            left: 388px;
+            right: var(--dl-space-space-unit);
+            width: 24px;
+            cursor: pointer;
+            height: 24px;
+            position: absolute;
           }
         `}
       </style>
